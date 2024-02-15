@@ -1,11 +1,17 @@
 Notes taken by Findlay while increasing coverage
 
-# Inital coverage
+# Initial coverage
 
 | SUT           | Class % | Method % | Line % | Branch % |
 | ------------- | ------- | -------- | ------ | -------- |
 | DataUtilities | 100%    | 55%      | 46%    | 31%      |
 | Range         | 100%    | 43%      | 39%    | 39%      |
+
+
+For IntelliJ Idea Line coverage is the amount of lines that have been covered in by the tests. Which can be used to identify the decision/branch coverage, by looking at which chunks of code have been run. 
+
+Branch coverage would be equivalent to condition coverage.
+
 
 # Improve coverage
 
@@ -65,3 +71,4 @@ Create test files that have the tests for the methods that don't have a test fil
 Some methods that are overloads of already tested methods can have their tests placed in the same file. Just be sure to indicate that the test is for the overload method or the normal one.
 
 Increase the tests for the methods that already have tests. We have to do this since some of the methods have had code added to them.
+
