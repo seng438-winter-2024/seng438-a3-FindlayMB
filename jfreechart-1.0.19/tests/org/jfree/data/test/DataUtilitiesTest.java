@@ -5,11 +5,14 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({CalculateColumnTotalTests.class,
+@Suite.SuiteClasses({
+        CalculateColumnTotalTests.class,
         CalculateRowTotalTests.class,
         CreateNumberArrayTests.class,
         CreateNumberArray2DTests.class,
-        GetCumulativePercentagesTests.class})
+        GetCumulativePercentagesTests.class,
+        EqualTests.class,
+        CloneTests.class})
 public class DataUtilitiesTest {
 
 }
