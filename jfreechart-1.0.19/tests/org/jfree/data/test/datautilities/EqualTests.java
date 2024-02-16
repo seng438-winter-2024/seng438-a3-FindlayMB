@@ -6,11 +6,6 @@ import org.junit.Test;
 import org.junit.Before;
 
 public class EqualTests {
-    @Before
-    public void setUp() throws Exception {
-
-    }
-
 
     /**
      * Testing boolean equal(double[][] a, double[][] b)

@@ -11,7 +11,6 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.security.InvalidParameterException;
-import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
