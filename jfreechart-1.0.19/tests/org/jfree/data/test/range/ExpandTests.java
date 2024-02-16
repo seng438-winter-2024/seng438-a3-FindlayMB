@@ -78,7 +78,7 @@ public class ExpandTests {
      * but since it accepts a percentage, it shouldn't except negative values
      */
     @Test(expected = IllegalArgumentException.class)
-    public void invalidMarginsNegatives() {
+    public void negativeMargins() {
         Range result = Range.expand(range2, -1, -0.5);
     }
 
