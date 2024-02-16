@@ -70,8 +70,8 @@ public class GetCumulativePercentagesTests {
             }
         });
 
-        HashMap<Comparable<Integer>, Double> expected = new HashMap<>();
-        expected.put(0, 1d);
+        DefaultKeyedValues expected = new DefaultKeyedValues();
+        expected.addValue((Comparable<?>)0, 1.0);
 
         KeyedValues results = DataUtilities.getCumulativePercentages(values);
 

@@ -9,8 +9,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import java.security.InvalidParameterException;
-
 import static org.junit.Assert.assertEquals;
 
 public class CalculateColumnTotalTests {
@@ -162,12 +160,27 @@ public class CalculateColumnTotalTests {
     }
 
     /**
+     * Testing calculateColumTotal for an empty Values2D object
+     *
+     * Expected output: 0.0
+     */
+    @Test
+    public void emptyData_ReturnZero(){
+        mockingContext.checking(new Expectations() {
+            {
+                one(values).getRowCount(); will(returnValue(0));
+            }
+        });
+        assertEquals(0, DataUtilities.calculateColumnTotal(values, 0), delta);
+    }
+
+    /**
      * Test calculateColumnTotal with a null value for data
      * this should throw an InvalidParameterException
      */
     @Test
     public void nullData_ThrowInvalidParameterException() {
-        exceptionRule.expect(InvalidParameterException.class);
+        exceptionRule.expect(IllegalArgumentException.class);
         double result = DataUtilities.calculateColumnTotal(null, 0);
     }
 
@@ -177,7 +190,7 @@ public class CalculateColumnTotalTests {
      */
     @Test
     public void partialNullData_ThrowInvalidParameterException() {
-        exceptionRule.expect(InvalidParameterException.class);
+        exceptionRule.expect(IllegalArgumentException.class);
         mockingContext.checking(new Expectations() {
             {
                 one(values).getRowCount(); will(returnValue(2));
