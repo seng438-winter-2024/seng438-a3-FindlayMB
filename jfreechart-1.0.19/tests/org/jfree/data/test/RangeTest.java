@@ -15,6 +15,7 @@ import java.security.InvalidParameterException;
         CombineTests.class,
         ContainsTests.class,
         ConstrainTests.class,
+        ExpandTests.class,
         ExpandToIncludeTests.class,
         AllGetterTests.class,
         HashCodeTests.class,
