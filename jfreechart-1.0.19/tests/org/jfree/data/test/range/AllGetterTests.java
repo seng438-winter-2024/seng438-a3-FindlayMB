@@ -3,14 +3,13 @@ package org.jfree.data.test.range;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.jfree.data.Range;
 
 public class AllGetterTests {
     private Range range1;
     private Range range2;
-    @BeforeClass public static void setUpBeforeClass() throws Exception {
-    }
+
+    private final double delta = 0.000000001d;
 
     @Before
     public void setUp() throws Exception {
@@ -25,9 +24,9 @@ public class AllGetterTests {
      * Expected outcome: returns a length of 7.
      */
     @Test
-    public void getLengthBasic() {
+    public void getLength_Basic() {
         assertEquals("Expected 7",
-                7, range1.getLength(),.000000001d);
+                7, range1.getLength(), delta);
     }
 
     /**
@@ -36,9 +35,9 @@ public class AllGetterTests {
      * Expected outcome: returns a length of 5.5.
      */
     @Test
-    public void getLengthNegativeAndPositive() {
+    public void getLength_NegativeAndPositive() {
         assertEquals("Expected 5.5",
-                5.5, range2.getLength(),.000000001d);
+                5.5, range2.getLength(), delta);
     }
 
     /**
@@ -50,7 +49,7 @@ public class AllGetterTests {
      * because the object of Range lower > upper will not be created
      */
     @Test(expected = IllegalArgumentException.class)
-    public void getLengthShouldThrowException() {
+    public void getLength_ShouldThrowException() {
         Range range = new Range(5.0, 2.0);
         range.getLength();
     }
@@ -61,9 +60,9 @@ public class AllGetterTests {
      * Expected outcome: returns a value of 5.5.
      */
     @Test
-    public void getCentralValueShouldReturn3_5() {
-        assertEquals("Expected 3.5",
-                3.5, range1.getCentralValue(),.000000001d);
+    public void getCentral_ValueShouldReturn35() {
+        assertEquals("Expected 5.5",
+                5.5, range1.getCentralValue(), delta);
     }
 
 }
