@@ -3,14 +3,11 @@ package org.jfree.data.test.range;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.jfree.data.Range;
 public class ExpandTests {
 
     private Range range1;
     private Range range2;
-    @BeforeClass public static void setUpBeforeClass() throws Exception {
-    }
 
     @Before
     public void setUp() throws Exception {
