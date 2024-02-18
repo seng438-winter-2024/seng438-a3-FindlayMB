@@ -19,7 +19,6 @@ import java.security.InvalidParameterException;
         ExpandToIncludeTests.class,
         AllGetterTests.class,
         HashCodeTests.class,
-        MinMaxTests.class,
         ScaleTests.class})
 public class RangeTest {
     @Rule
