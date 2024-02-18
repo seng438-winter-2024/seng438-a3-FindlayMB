@@ -19,8 +19,7 @@ public class AllGetterTests {
     }
 
     /**
-     * This test tests getLength function with inputs of a range
-     * from [2, 9]
+     * Test getLength for a range of [2,9]
      * Expected outcome: returns a length of 7.
      */
     @Test
@@ -30,8 +29,7 @@ public class AllGetterTests {
     }
 
     /**
-     * This test tests getLength function with inputs of a range
-     * from [-2, 3.5]
+     * Test getLength for a range of [-2, 3.5]
      * Expected outcome: returns a length of 5.5.
      */
     @Test
@@ -55,12 +53,11 @@ public class AllGetterTests {
     }
 
     /**
-     * This test tests getCentralValue function with inputs of a range
-     * from [2, 9]
+     * Test getCentralValue for a range of [2,9]
      * Expected outcome: returns a value of 5.5.
      */
     @Test
-    public void getCentral_ValueShouldReturn35() {
+    public void getCentral_ValueShouldReturn5_5() {
         assertEquals("Expected 5.5",
                 5.5, range1.getCentralValue(), delta);
     }
