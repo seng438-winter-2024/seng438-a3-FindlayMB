@@ -1,4 +1,4 @@
-package org.jfree.data.test.datautilities;
+package org.jfree.data.test.datautilities.calculate;
 
 import org.jfree.data.DataUtilities;
 import org.jfree.data.Values2D;
@@ -11,7 +11,7 @@ import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculateRowTotalTests {
+public class CalculateRowTotalOverloadTests {
     private Mockery mockingContext;
     private Values2D values;
 
@@ -75,6 +75,11 @@ public class CalculateRowTotalTests {
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
 
+    /*
+     * Following Tests are for the calculateRowTotal method with the parameters
+     * Values2D data, int row, int[] validCols
+     */
+
     /**
      * Testing calculateRowTotal row out of left index bounds
      * row < 1 - columnAmt
@@ -87,7 +92,7 @@ public class CalculateRowTotalTests {
     public void invalidRow_OutsideLeftBound() {
         setUpMocking(-5, true);
         assertEquals(0.0,
-                DataUtilities.calculateRowTotal(values, -5), delta);
+                DataUtilities.calculateRowTotal(values, -5, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -102,7 +107,7 @@ public class CalculateRowTotalTests {
     public void validRow_LeftBoundary() {
         setUpMocking(-4);
         assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -4), delta);
+                DataUtilities.calculateRowTotal(values, -4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -117,7 +122,7 @@ public class CalculateRowTotalTests {
     public void validRow_BetweenLeftBoundaryZero() {
         setUpMocking(-2);
         assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -2), delta);
+                DataUtilities.calculateRowTotal(values, -2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -131,7 +136,7 @@ public class CalculateRowTotalTests {
     public void validRow_Zero() {
         setUpMocking(0);
         assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 0), delta);
+                DataUtilities.calculateRowTotal(values, 0, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -146,7 +151,7 @@ public class CalculateRowTotalTests {
     public void validRow_BetweenZeroRightBoundary() {
         setUpMocking(2);
         assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 2), delta);
+                DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -161,7 +166,7 @@ public class CalculateRowTotalTests {
     public void validRow_RightBoundary() {
         setUpMocking(4);
         assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 4), delta);
+                DataUtilities.calculateRowTotal(values, 4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -176,7 +181,7 @@ public class CalculateRowTotalTests {
     public void invalidRow_OutsideRightBound() {
         setUpMocking(5, true);
         assertEquals(0.0,
-                DataUtilities.calculateRowTotal(values, 5), delta);
+                DataUtilities.calculateRowTotal(values, 5, new int[]{0,1,2,3,4}), delta);
     }
 
 
@@ -186,8 +191,6 @@ public class CalculateRowTotalTests {
      */
     @Test
     public void emptyData_ReturnZero(){
-        mockingContext = new Mockery();
-        values = mockingContext.mock(Values2D.class);
         mockingContext.checking(new Expectations() {
             {
                 one(values).getColumnCount(); will(returnValue(0));
@@ -199,23 +202,21 @@ public class CalculateRowTotalTests {
 
     /**
      * Test calculateRowTotal with a null value for data
-     * this should throw an InvalidParameterException
+     * this should throw an IllegalArgumentException
      */
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateRowTotal(null, 1);
+        double result = DataUtilities.calculateRowTotal(null, 1, new int[]{0, 1});
     }
 
     /**
      * Test calculateRowTotal with a null value inside of data
-     * this should throw an InvalidParameterException
+     * Will ignore null values in data
+     * Expected output: 7.5
      */
     @Test
     public void partialNullData_ThrowInvalidParameterException() {
-        exceptionRule.expect(IllegalArgumentException.class);
-        mockingContext = new Mockery();
-        values = mockingContext.mock(Values2D.class);
         mockingContext.checking(new Expectations() {
             {
                 one(values).getColumnCount(); will(returnValue(2));
@@ -223,14 +224,24 @@ public class CalculateRowTotalTests {
                 one(values).getValue(0, 1); will(returnValue(null));
             }
         });
-        double result = DataUtilities.calculateRowTotal(values, 0);
+        assertEquals(7.5, DataUtilities.calculateRowTotal(values, 0, new int[]{0, 1}), delta);
     }
 
-
-    /*
-     * Following Tests are for the calculateRowTotal method with the parameters
-     * Values2D data, int row, int[] validCols
+    /**
+     * Test calculateRowTotal with a null value for validColss
+     * this should throw an IllegalArgumentException
      */
-
+    @Test
+    public void validData_nullValidRows_ThrowInvalidParameterException() {
+        exceptionRule.expect(IllegalArgumentException.class);
+        mockingContext.checking(new Expectations() {
+            {
+                one(values).getRowCount(); will(returnValue(2));
+                one(values).getValue(0, 0); will(returnValue(7.5));
+                one(values).getValue(1, 0); will(returnValue(2.5));
+            }
+        });
+        double result = DataUtilities.calculateRowTotal(values, 0, null);
+    }
 
 }

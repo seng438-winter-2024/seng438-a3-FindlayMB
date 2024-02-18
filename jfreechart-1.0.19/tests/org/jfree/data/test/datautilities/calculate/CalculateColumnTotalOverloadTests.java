@@ -1,4 +1,4 @@
-package org.jfree.data.test.datautilities;
+package org.jfree.data.test.datautilities.calculate;
 
 import org.jfree.data.DataUtilities;
 import org.jfree.data.Values2D;
@@ -11,7 +11,7 @@ import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculateColumnTotalTests {
+public class CalculateColumnTotalOverloadTests {
     private Mockery mockingContext;
     private Values2D values;
 
@@ -59,6 +59,11 @@ public class CalculateColumnTotalTests {
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
 
+    /*
+     * Following Tests are for the calculateColumnTotal method with the parameters
+     * Values2D data, int column, int[] validRows
+     */
+
     /**
      * Testing calculateColumnTotal column out of left index bounds
      * column < 1 - rowAmt
@@ -70,7 +75,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void invalidColumn_OutsideLeftBound() {
         setUpMocking(-5, true);
-        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, -5), delta);
+        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, -5, new int[]{0,1,2,3,4}), delta);
     }
 
 
@@ -85,7 +90,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void validColumn_LeftBoundary() {
         setUpMocking(-4);
-        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -4), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -99,7 +104,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void validColumn_BetweenLeftBoundaryZero() {
         setUpMocking(-2);
-        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -2), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -113,7 +118,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void validColumn_Zero() {
         setUpMocking(0);
-        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 0), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 0, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -127,7 +132,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void validColumn_BetweenZeroRightBoundary() {
         setUpMocking(2);
-        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 2), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -141,7 +146,7 @@ public class CalculateColumnTotalTests {
     @Test
     public void validColumn_RightBoundary() {
         setUpMocking(4);
-        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 4), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 4, new int[]{0,1,2,3,4}), delta);
     }
 
 
@@ -156,12 +161,11 @@ public class CalculateColumnTotalTests {
     @Test
     public void invalidColumn_OutsideRightBound() {
         setUpMocking(5, true);
-        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, 5), delta);
+        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, 5, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
      * Testing calculateColumTotal for an empty Values2D object
-     *
      * Expected output: 0.0
      */
     @Test
@@ -176,21 +180,21 @@ public class CalculateColumnTotalTests {
 
     /**
      * Test calculateColumnTotal with a null value for data
-     * this should throw an InvalidParameterException
+     * this should throw an IllegalArgumentException
      */
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateColumnTotal(null, 0);
+        double result = DataUtilities.calculateColumnTotal(null, 0, new int[]{0,1});
     }
 
     /**
      * Test calculateColumnTotal with a null value inside of data
-     * this should throw an InvalidParameterException
+     * Will ignore null values in data
+     * Expected output: 7.5
      */
     @Test
     public void partialNullData_ThrowInvalidParameterException() {
-        exceptionRule.expect(IllegalArgumentException.class);
         mockingContext.checking(new Expectations() {
             {
                 one(values).getRowCount(); will(returnValue(2));
@@ -198,16 +202,26 @@ public class CalculateColumnTotalTests {
                 one(values).getValue(1, 0); will(returnValue(null));
             }
         });
-        double result = DataUtilities.calculateColumnTotal(values, 0);
+        assertEquals(7.5, DataUtilities.calculateColumnTotal(values, 0, new int[]{0, 1}), delta);
     }
 
 
-    /*
-     * Following Tests are for the calculateColumnTotal method with the parameters
-     * Values2D data, int column, int[] validRows
+    /**
+     * Test calculateColumnTotal with a null value for validRows
+     * this should throw an IllegalArgumentException
      */
-
-
+    @Test
+    public void validData_nullValidRows_ThrowInvalidParameterException() {
+        exceptionRule.expect(IllegalArgumentException.class);
+        mockingContext.checking(new Expectations() {
+            {
+                one(values).getRowCount(); will(returnValue(2));
+                one(values).getValue(0, 0); will(returnValue(7.5));
+                one(values).getValue(1, 0); will(returnValue(2.5));
+            }
+        });
+        double result = DataUtilities.calculateColumnTotal(values, 0, null);
+    }
 
 
 
