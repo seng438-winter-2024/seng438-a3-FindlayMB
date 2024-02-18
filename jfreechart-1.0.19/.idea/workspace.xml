@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f039633c-479a-4e0f-af21-4f3c2658a150" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateTotalTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalOverloadTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateRowTotalOverloadTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfreechart-1.0.19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jfreechart-1.0.19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/DataUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/DataUtilitiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/RangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/RangeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateColumnTotalTests$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateColumnTotalTests$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateColumnTotalTests$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateColumnTotalTests$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateColumnTotalTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateRowTotalTests$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateRowTotalTests$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateRowTotalTests$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateRowTotalTests$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jfreechart-1.0.19/org/jfree/data/test/datautilities/CalculateRowTotalTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/DataUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/DataUtilitiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/RunTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/RunTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CalculateColumnTotalTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CalculateRowTotalTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/DataUtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/DataUtilitiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/RangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/RangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateColumnTotalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalBaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateRowTotalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateRowTotalBaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalOverloadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalOverloadTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708220779668</updated>
-      <workItem from="1708220780689" duration="3902000" />
+      <workItem from="1708220780689" duration="4972000" />
     </task>
     <servers />
   </component>

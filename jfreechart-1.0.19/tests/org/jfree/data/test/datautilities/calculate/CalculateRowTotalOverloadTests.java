@@ -197,7 +197,14 @@ public class CalculateRowTotalOverloadTests {
             }
         });
         assertEquals(0,
-                DataUtilities.calculateRowTotal(values, 0), delta);
+                DataUtilities.calculateRowTotal(values, 0, new int[]{}), delta);
+    }
+
+    @Test
+    public void validColsIncludesInvalidColumns_ignoresInvalidColumns(){
+        setUpMocking(2);
+        assertEquals(5,
+                DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4,5,6}), delta);
     }
 
     /**
@@ -224,7 +231,8 @@ public class CalculateRowTotalOverloadTests {
                 one(values).getValue(0, 1); will(returnValue(null));
             }
         });
-        assertEquals(7.5, DataUtilities.calculateRowTotal(values, 0, new int[]{0, 1}), delta);
+        assertEquals(7.5,
+                DataUtilities.calculateRowTotal(values, 0, new int[]{0, 1}), delta);
     }
 
     /**
