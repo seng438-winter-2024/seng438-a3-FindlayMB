@@ -17,7 +17,7 @@ public class CloneTests {
 
 
     @Test
-    public void validSource_2D_doubleArray_returnValidClone(){
+    public void validSource_2D_doubleArray_returnClone(){
         double[][] expected = new double[][]{{1,2},{3,4}};
         assertArrayEquals(expected, DataUtilities.clone(expected));
     }
@@ -30,8 +30,14 @@ public class CloneTests {
     }
 
     @Test
-    public void emptySource_returnEmptyArray(){
+    public void emptySource_1D_returnEmptyArray(){
         double[][] expected = new double[][]{};
+        assertArrayEquals(expected, DataUtilities.clone(expected));
+    }
+
+    @Test
+    public void emptySource_2D_returnEmptyArray(){
+        double[][] expected = new double[][]{{},{}};
         assertArrayEquals(expected, DataUtilities.clone(expected));
     }
 
