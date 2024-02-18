@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f039633c-479a-4e0f-af21-4f3c2658a150" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jfreechart-1.0.19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jmock_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartHints$Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartHints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartMouseEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartRenderingInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartTransferable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ChartUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/ClipPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/DrawableLegendItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/Effect3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/HashUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/JFreeChart$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/JFreeChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/JFreeChartInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/LegendItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/LegendItemCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/LegendItemSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/LegendRenderingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/MouseWheelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/PaintMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/PolarChartPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/StandardChartTheme$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/StandardChartTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/StrokeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/AbstractAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/AbstractXYAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/Annotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/CategoryAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/CategoryLineAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/CategoryPointerAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/CategoryTextAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/TextAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYAnnotationBoundsInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYBoxAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYDataImageAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYDrawableAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYImageAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYLineAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYPointerAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYPolygonAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYShapeAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYTextAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/annotations/XYTitleAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/Axis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/AxisCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/AxisLabelLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/AxisLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/AxisSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/AxisState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryAnchor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryAxis3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryLabelPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryLabelPositions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryLabelWidthType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CategoryTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/ColorBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CompassFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CyclicNumberAxis$CycleBoundTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/CyclicNumberAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateAxis$DefaultTimeline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateTickMarkPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateTickUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/DateTickUnitType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/ExtendedCategoryAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/LogAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/LogTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/LogarithmicAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/MarkerAxisBand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/ModuloAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/MonthDateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/NumberAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/NumberAxis3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/NumberTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/NumberTickUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/NumberTickUnitSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/PeriodAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/PeriodAxisLabelInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/QuarterDateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SegmentedTimeline$BaseTimelineSegmentRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SegmentedTimeline$Segment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SegmentedTimeline$SegmentRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SegmentedTimeline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/StandardTickUnitSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SubCategoryAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/SymbolAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/Tick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/TickType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/TickUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/TickUnitSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/TickUnits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/Timeline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/ValueAxis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/axis/ValueTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/AbstractBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/Arrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BlockBorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BlockContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BlockFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BlockParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BlockResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/BorderArrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/CenterArrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/ColorBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/ColumnArrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/EmptyBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/EntityBlockParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/EntityBlockResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/FlowArrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/GridArrangement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/LabelBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/LengthConstraintType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/LineBorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/block/RectangleConstraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/demo/BarChartDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/demo/PieChartDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/demo/TimeSeriesChartDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/ChartEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/ChartEditorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/ChartEditorManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultAxisEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultChartEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultChartEditorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultColorBarEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultLogAxisEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultNumberAxisEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultPlotEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultPolarPlotEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultTitleEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/DefaultValueAxisEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/PaletteChooserPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/editor/PaletteSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/EncoderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/ImageEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/ImageEncoderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/ImageFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/KeypointPNGEncoderAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/SunJPEGEncoderAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/encoders/SunPNGEncoderAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/AxisEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/CategoryItemEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/CategoryLabelEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/ChartEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/ContourEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/EntityCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/JFreeChartEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/LegendItemEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/PieSectionEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/PlotEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/StandardEntityCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/TickLabelEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/TitleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/XYAnnotationEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/entity/XYItemEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/AnnotationChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/AnnotationChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/AxisChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/AxisChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/ChartChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/ChartChangeEventType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/ChartChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/ChartProgressEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/ChartProgressListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/MarkerChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/MarkerChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/OverlayChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/OverlayChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/PlotChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/PlotChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/RendererChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/RendererChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/TitleChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/event/TitleChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/DynamicDriveToolTipTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/ImageMapUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/StandardURLTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/ToolTipTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/imagemap/URLTagFragmentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/AbstractPieItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/AbstractXYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/BubbleXYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/CategoryItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/CategorySeriesLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/CategoryToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/ContourToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/CrosshairLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/CustomXYToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/HighLowItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/IntervalCategoryToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/IntervalXYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/ItemLabelAnchor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/ItemLabelPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/MultipleXYSeriesLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/PieSectionLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/PieToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardCategoryItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardCategoryToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardContourToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardCrosshairLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardPieSectionLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardPieToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardXYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardXYSeriesLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardXYToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/StandardXYZToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/SymbolicXYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/XYItemLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/XYSeriesLabelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/XYToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/labels/XYZToolTipGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/ArrowNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/LineNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/LongNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/MeterNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/MiddlePinNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/PinNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/PlumNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/PointerNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/ShipNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/needle/WindNeedle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/panel/AbstractOverlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/panel/CrosshairOverlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/panel/Overlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/AbstractPieLabelDistributor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CategoryCrosshairState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CategoryMarker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CategoryPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CenterTextMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ColorPalette.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CombinedDomainCategoryPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CombinedDomainXYPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CombinedRangeCategoryPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CombinedRangeXYPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CompassPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ContourPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ContourPlotUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ContourValuePlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/Crosshair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/CrosshairState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/DatasetRenderingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/DefaultDrawingSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/DialShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/DrawingSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/FastScatterPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/GreyPalette.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/IntervalMarker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/JThermometer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/Marker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/MeterInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/MeterPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/MultiplePiePlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/Pannable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PieLabelDistributor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PieLabelLinkStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PieLabelRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PiePlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PiePlot3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PiePlotState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/Plot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PlotOrientation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PlotRenderingInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PlotState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PlotUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PolarAxisLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/PolarPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/RainbowPalette.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/RingPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/SeriesRenderingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/SpiderWebPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ThermometerPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ValueAxisPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/ValueMarker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/WaferMapPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/XYCrosshairState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/XYPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/Zoomable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/AbstractDialLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/ArcDialFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialBackground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialCap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialLayerChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialLayerChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialPointer$Pin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialPointer$Pointer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialPointer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialTextAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/DialValueIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/StandardDialFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/StandardDialRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/plot/dial/StandardDialScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/AbstractRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/AreaRendererEndType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/DefaultPolarItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/GrayPaintScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/LookupPaintScale$PaintItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/LookupPaintScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/NotOutlierException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/Outlier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/OutlierList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/OutlierListCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/PaintScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/PolarItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/RendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/RendererUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/WaferMapRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/AreaRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/BarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/BarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/BarRenderer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/CategoryItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/CategoryItemRendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/CategoryStepRenderer$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/CategoryStepRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/DefaultCategoryItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/GanttRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/GradientBarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/GroupedStackedBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/IntervalBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/LayeredBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/LevelRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/LineAndShapeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/LineRenderer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/MinMaxCategoryRenderer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/MinMaxCategoryRenderer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/ScatterRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StackedAreaRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StackedBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StackedBarRenderer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StandardBarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StatisticalBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/StatisticalLineAndShapeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/category/WaterfallBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/CandlestickRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/CyclicXYItemRenderer$OverwriteDataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/CyclicXYItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/DefaultXYItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/DeviationRenderer$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/DeviationRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/GradientXYBarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/HighLowRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/SamplingXYLineRenderer$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/SamplingXYLineRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StackedXYAreaRenderer$StackedXYAreaRendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StackedXYAreaRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StackedXYBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StandardXYBarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StandardXYItemRenderer$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/StandardXYItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/VectorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/WindItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYAreaRenderer$XYAreaRendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYAreaRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYAreaRenderer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBarPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBarRenderer$XYBarRendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBarRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBlockRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBoxAndWhiskerRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYBubbleRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYDifferenceRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYDotRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYErrorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYItemRendererState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYLine3DRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYShapeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYSplineRenderer$FillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYSplineRenderer$XYSplineState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYSplineRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYStepAreaRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/XYStepRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/renderer/xy/YIntervalRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/resources/JFreeChartResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/servlet/ChartDeleter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/servlet/DisplayChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/servlet/ServletUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/CompositeTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/DateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/ImageTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/LegendGraphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/LegendItemBlockContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/LegendTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/PaintScaleLegend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/ShortTextTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/TextTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/title/Title.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/CategoryURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/CustomCategoryURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/CustomPieURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/CustomXYURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/PieURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/StandardCategoryURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/StandardPieURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/StandardXYURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/StandardXYZURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/TimeSeriesURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/URLUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/XYURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/urls/XYZURLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/AttrStringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/CloneUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/DefaultShadowGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/DirectionalGradientPaintTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/ExportUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/HMSNumberFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/HexNumberFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/LineUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/LogFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/PaintAlpha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/ParamChecks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/RelativeDateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/ResourceBundleWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/ShadowGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/TextUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/chart/util/XYCoordinateType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/ComparableObjectItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/ComparableObjectSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DataUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DefaultKeyedValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DefaultKeyedValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DefaultKeyedValues2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DomainInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/DomainOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyToGroupMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedObjects2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedValueComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedValueComparatorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/KeyedValues2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/RangeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/RangeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/UnknownKeyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/Values2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/CategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/CategoryRangeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/CategoryToPieDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/DefaultCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/DefaultIntervalCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/IntervalCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/category/SlidingCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/contour/ContourDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/contour/DefaultContourDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/contour/NonGridContourDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/function/Function2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/function/LineFunction2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/function/NormalDistributionFunction2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/function/PolynomialFunction2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/function/PowerFunction2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/GanttCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/SlidingGanttCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/TaskSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/TaskSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/gantt/XYTaskDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/AbstractDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/AbstractSeriesDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/CombinationDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/CombinedDataset$DatasetInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/CombinedDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/Dataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DatasetChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DatasetChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DatasetGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DatasetUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultHeatMapDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultKeyedValueDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultKeyedValues2DDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultKeyedValuesDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultPieDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/DefaultValueDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/HeatMapDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/HeatMapUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/KeyedValueDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/KeyedValues2DDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/KeyedValuesDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/PieDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/Series.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/SeriesChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/SeriesChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/SeriesDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/SeriesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/SubSeriesDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/ValueDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/general/WaferMapDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/io/CSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/jdbc/JDBCCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/jdbc/JDBCPieDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/jdbc/JDBCXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources_de.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources_es.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources_fr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources_pl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/resources/DataPackageResources_ru.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/BoxAndWhiskerCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/BoxAndWhiskerCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/BoxAndWhiskerItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/BoxAndWhiskerXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/HistogramBin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/HistogramDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/HistogramType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/MeanAndStandardDeviation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/MultiValueCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/Regression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/SimpleHistogramBin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/SimpleHistogramDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/StatisticalCategoryDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/statistics/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/DateRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Day.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/DynamicTimeSeriesCollection$ValueSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/DynamicTimeSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/FixedMillisecond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Hour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Millisecond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Minute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Month.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/MovingAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Quarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/RegularTimePeriod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/SimpleTimePeriod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriodAnchor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriodFormatException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriodValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriodValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimePeriodValuesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimeSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimeSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimeSeriesDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimeSeriesTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/TimeTableXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Week.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/Year.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/ohlc/OHLC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/ohlc/OHLCItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/ohlc/OHLCSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/time/ohlc/OHLCSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/CategoryDatasetHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/CategorySeriesHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/DatasetReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/DatasetTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/ItemHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/KeyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/PieDatasetHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/RootHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xml/ValueHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/AbstractIntervalXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/AbstractXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/AbstractXYZDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/CategoryTableXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultHighLowDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultIntervalXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultOHLCDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultTableXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultWindDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/DefaultXYZDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/IntervalXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/IntervalXYDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/IntervalXYZDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/MatrixSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/MatrixSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/NormalizedMatrixSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/OHLCDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/OHLCDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/TableXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/VectorDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/VectorSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/VectorSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/VectorXYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/WindDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/WindDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XIntervalDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XIntervalSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XIntervalSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYBarDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYCoordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYDatasetTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYDomainInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYIntervalDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYIntervalSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYIntervalSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYRangeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XYZDataset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/XisSymbolic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YIntervalDataItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YIntervalSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YIntervalSeriesCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YWithXInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jfree/data/xy/YisSymbolic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/DataUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/DataUtilitiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/RangeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/RunTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/RunTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CalculateColumnTotalTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CalculateColumnTotalTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CalculateRowTotalTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CloneTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CreateNumberArray2DTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/CreateNumberArrayTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/EqualTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/datautilities/GetCumulativePercentagesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/AllGetterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/CombineTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/ConstrainTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/ContainsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/ExpandToIncludeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/HashCodeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/IntersectsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jfree/data/test/range/ScaleTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateColumnTotalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateColumnTotalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateRowTotalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CalculateRowTotalTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2cWICI0H9KjLQtoQqmItZc7HS8J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.RunTests.executor": "Coverage",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Findlay",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="RunTests" type="JUnit" factoryName="JUnit">
+      <module name="jfreechart-1.0.19" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.DataUtilities" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.Range" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jfree.data.test" />
+      <option name="MAIN_CLASS_NAME" value="org.jfree.data.test.RunTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f039633c-479a-4e0f-af21-4f3c2658a150" name="Changes" comment="" />
+      <created>1708220779668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708220779668</updated>
+      <workItem from="1708220780689" duration="584000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$RunTests.ic" NAME="RunTests Coverage Results" MODIFIED="1708220887774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+      <FILTER>org.jfree.data.Range</FILTER>
+    </SUITE>
+  </component>
+</project>

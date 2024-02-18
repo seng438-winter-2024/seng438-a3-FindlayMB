@@ -182,11 +182,12 @@ public class CalculateRowTotalTests {
 
     /**
      * Testing calculateRowTotal for an empty Values2D object
-     *
      * Expected output: 0.0
      */
     @Test
     public void emptyData_ReturnZero(){
+        mockingContext = new Mockery();
+        values = mockingContext.mock(Values2D.class);
         mockingContext.checking(new Expectations() {
             {
                 one(values).getColumnCount(); will(returnValue(0));
@@ -213,16 +214,23 @@ public class CalculateRowTotalTests {
     @Test
     public void partialNullData_ThrowInvalidParameterException() {
         exceptionRule.expect(IllegalArgumentException.class);
+        mockingContext = new Mockery();
+        values = mockingContext.mock(Values2D.class);
         mockingContext.checking(new Expectations() {
             {
-                one(values).getColumnCount();
-                will(returnValue(2));
-                one(values).getValue(0, 0);
-                will(returnValue(7.5));
-                one(values).getValue(0, 1);
-                will(returnValue(null));
+                one(values).getColumnCount(); will(returnValue(2));
+                one(values).getValue(0, 0); will(returnValue(7.5));
+                one(values).getValue(0, 1); will(returnValue(null));
             }
         });
-        double result = DataUtilities.calculateColumnTotal(values, 0);
+        double result = DataUtilities.calculateRowTotal(values, 0);
     }
+
+
+    /*
+     * Following Tests are for the calculateRowTotal method with the parameters
+     * Values2D data, int row, int[] validCols
+     */
+
+
 }

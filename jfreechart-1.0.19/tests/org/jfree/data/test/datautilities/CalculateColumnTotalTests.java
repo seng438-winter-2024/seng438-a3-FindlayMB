@@ -201,4 +201,14 @@ public class CalculateColumnTotalTests {
         double result = DataUtilities.calculateColumnTotal(values, 0);
     }
 
+
+    /*
+     * Following Tests are for the calculateColumnTotal method with the parameters
+     * Values2D data, int column, int[] validRows
+     */
+
+
+
+
+
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jfreechart.iml" filepath="$PROJECT_DIR$/jfreechart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfreechart-1.0.19.iml" filepath="$PROJECT_DIR$/jfreechart-1.0.19.iml" />
     </modules>
   </component>
 </project>
