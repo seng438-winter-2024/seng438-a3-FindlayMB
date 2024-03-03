@@ -144,4 +144,17 @@ public class IntersectsTests {
         true, range1.intersects(1,3));
     }
 
+    /**
+     * This test tests intersects(Range) function
+     * with  does Range[2,3] intersect with [-1,1]
+     * test case: lower = UB and upper > UB
+     * Expected outcome: true
+     */
+    @Test
+    public void intersectsRange() {
+        Range test = new Range(2,3);
+        assertEquals("Range [2,3] does not intersect [-1,1]",
+                false, range1.intersects(test));
+    }
+
 }
