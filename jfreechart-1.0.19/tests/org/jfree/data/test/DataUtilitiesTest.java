@@ -4,10 +4,12 @@ import org.jfree.data.test.datautilities.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
+/**
+ * Run all tests that are related to DataUtilities
+ */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        CalculateColumnTotalTests.class,
-        CalculateRowTotalTests.class,
+        CalculateTotalTests.class,
         CreateNumberArrayTests.class,
         CreateNumberArray2DTests.class,
         GetCumulativePercentagesTests.class,

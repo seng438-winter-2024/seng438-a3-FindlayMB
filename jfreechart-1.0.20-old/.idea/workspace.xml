@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f039633c-479a-4e0f-af21-4f3c2658a150" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Jmock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Jmock1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_0_19_demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jmock_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfreechart-1.0.19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jfreechart-1.0.19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfreechart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jfreechart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CloneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CloneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CreateNumberArray2DTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/CreateNumberArray2DTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/GetCumulativePercentagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/GetCumulativePercentagesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalOverloadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateColumnTotalOverloadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateRowTotalOverloadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/jfree/data/test/datautilities/calculate/CalculateRowTotalOverloadTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cWICI0H9KjLQtoQqmItZc7HS8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DataUtilitiesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RangeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Findlay&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/seng438-a3-FindlayMB/jfreechart-1.0.19/lib/swtgraphics2d.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26091954&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.jfree.data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jfree.data.test.datautilities.calculate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunTests">
+    <configuration name="DataUtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jfreechart-1.0.19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jfree.data.test" />
+      <option name="MAIN_CLASS_NAME" value="org.jfree.data.test.DataUtilitiesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jfreechart-1.0.19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jfree.data.test" />
+      <option name="MAIN_CLASS_NAME" value="org.jfree.data.test.RangeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTests" type="JUnit" factoryName="JUnit">
+      <module name="jfreechart-1.0.19" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.DataUtilities" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="org.jfree.data.Range" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jfree.data.test" />
+      <option name="MAIN_CLASS_NAME" value="org.jfree.data.test.RunTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RunTests" />
+      <item itemvalue="JUnit.DataUtilitiesTest" />
+      <item itemvalue="JUnit.RangeTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataUtilitiesTest" />
+        <item itemvalue="JUnit.RangeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f039633c-479a-4e0f-af21-4f3c2658a150" name="Changes" comment="" />
+      <created>1708220779668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708220779668</updated>
+      <workItem from="1708220780689" duration="4972000" />
+      <workItem from="1709414626007" duration="418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$RunAllTests.ic" NAME="RunAllTests Coverage Results" MODIFIED="1709406743079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+      <FILTER>org.jfree.data.Range</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$fucker.ic" NAME="fucker Coverage Results" MODIFIED="1707950380555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.test.*</FILTER>
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+      <FILTER>org.jfree.data.Range</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$RunAllTests.exec" NAME="RunAllTests Coverage Results" MODIFIED="1708033570416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+      <FILTER>org.jfree.data.Range</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$DataUtilitiesTest.ic" NAME="DataUtilitiesTest Coverage Results" MODIFIED="1708039978085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/jfreechart_1_0_19$RunTests.ic" NAME="RunTests Coverage Results" MODIFIED="1709414649761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.jfree.data.DataUtilities</FILTER>
+      <FILTER>org.jfree.data.Range</FILTER>
+    </SUITE>
+  </component>
+</project>

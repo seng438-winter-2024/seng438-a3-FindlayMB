@@ -6,6 +6,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+import static org.junit.Assert.assertArrayEquals;
+
 import java.security.InvalidParameterException;
 
 public class CreateNumberArray2DTests {
@@ -22,7 +24,8 @@ public class CreateNumberArray2DTests {
     @Test
     public void validData_Empty2dDoubleArray() {
         Number[][] expected = {{}};
-        Assert.assertArrayEquals(expected, DataUtilities.createNumberArray2D(new double[][]{{}}));
+        Assert.assertArrayEquals(expected, DataUtilities.createNumberArray2D(
+        			new double[][]{{}}));
     }
 
 
@@ -34,8 +37,8 @@ public class CreateNumberArray2DTests {
     @Test
     public void validData_Basic1dDoubleArray() {
         Number[][] expected = {{1d, 2d, 3d}};
-        Assert.assertEquals("Should create a 2D array of Number objects", expected,
-                DataUtilities.createNumberArray2D(new double[][]{{1d, 2d, 3d}}));
+        assertArrayEquals(expected,DataUtilities.createNumberArray2D(
+        		new double[][]{{1d, 2d, 3d}}));
     }
 
     /**
@@ -46,8 +49,8 @@ public class CreateNumberArray2DTests {
     @Test
     public void validData_Basic2dDoubleArray() {
         Number[][] expected = {{1d, 2d}, {1d, 2d}};
-        Assert.assertEquals("Should create a 2D array of Number objects", expected,
-                DataUtilities.createNumberArray2D(new double[][]{{1d, 2d}, {1d, 2d}}));
+        assertArrayEquals(expected, DataUtilities.createNumberArray2D(
+        		new double[][]{{1d, 2d}, {1d, 2d}}));
     }
 
 
@@ -59,8 +62,8 @@ public class CreateNumberArray2DTests {
     @Test
     public void validData_MaxValueIn2dDoubleArray() {
         Number[][] expected = {{Double.MAX_VALUE, 2d}, {3d, 4d}};
-        Assert.assertArrayEquals(expected,
-                DataUtilities.createNumberArray2D(new double[][]{{Double.MAX_VALUE, 2d}, {3d, 4d}}));
+        Assert.assertArrayEquals(expected, DataUtilities.createNumberArray2D(
+        		new double[][]{{Double.MAX_VALUE, 2d}, {3d, 4d}}));
     }
 
 
@@ -72,8 +75,8 @@ public class CreateNumberArray2DTests {
     @Test
     public void validData_MinValueIn2dDoubleArray() {
         Number[][] expected = {{Double.MIN_VALUE, 2d}, {3d, 4d}};
-        Assert.assertArrayEquals(expected,
-                DataUtilities.createNumberArray2D(new double[][]{{Double.MIN_VALUE, 2d}, {3d, 4d}}));
+        Assert.assertArrayEquals(expected, DataUtilities.createNumberArray2D(
+        		new double[][]{{Double.MIN_VALUE, 2d}, {3d, 4d}}));
     }
 
 
@@ -84,7 +87,7 @@ public class CreateNumberArray2DTests {
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(InvalidParameterException.class);
-        Number[][] result = DataUtilities.createNumberArray2D(null);
+        DataUtilities.createNumberArray2D(null);
     }
 
 
@@ -96,7 +99,7 @@ public class CreateNumberArray2DTests {
     @Test
     public void partialNullData_ThrowInvalidParameterException() {
         exceptionRule.expect(InvalidParameterException.class);
-        Number[][] result = DataUtilities.createNumberArray2D(new double[][]{{}, {1d, 2d}});
+        DataUtilities.createNumberArray2D(new double[][]{{}, {1d, 2d}});
     }
 
 }

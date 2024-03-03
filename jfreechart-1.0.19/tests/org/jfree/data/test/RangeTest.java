@@ -1,14 +1,19 @@
 package org.jfree.data.test;
 
+import org.jfree.data.Range;
 import org.jfree.data.test.range.*;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.internal.runners.SuiteMethod;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 import java.security.InvalidParameterException;
 
+/**
+ * Run all tests that are related to Range
+ */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         IntersectsTests.class,
@@ -19,8 +24,8 @@ import java.security.InvalidParameterException;
         ExpandToIncludeTests.class,
         AllGetterTests.class,
         HashCodeTests.class,
-        MinMaxTests.class,
-        ScaleTests.class})
+        ScaleTests.class,
+        })
 public class RangeTest {
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
@@ -28,6 +33,6 @@ public class RangeTest {
     @Test
     public void rangeConstructorInvalidParameters() {
         exceptionRule.expect(IllegalArgumentException.class);
+        Range result = new Range(5, 0);
     }
-
 }

@@ -7,7 +7,9 @@ Notes taken by Findlay while increasing coverage
 | DataUtilities | 100%    | 55%      | 46%    | 31%      |
 | Range         | 100%    | 43%      | 38%    | 39%      |
 
-For IntelliJ Idea Line coverage is the amount of lines that have been covered in by the tests. Which can be used to identify the decision/branch coverage, by looking at which chunks of code have been run.
+For IntelliJ Idea Line coverage is the amount of lines that have been covered in by the tests, therefore line coverage is the same as statement coverage. 
+
+Which can be used to identify the decision/branch coverage, by looking at which chunks of code have been run.
 
 Branch coverage would be equivalent to condition coverage.
 
@@ -69,3 +71,24 @@ Create test files that have the tests for the methods that don't have a test fil
 Some methods that are overloads of already tested methods can have their tests placed in the same file. Just be sure to indicate that the test is for the overload method or the normal one.
 
 Increase the tests for the methods that already have tests. We have to do this since some of the methods have had code added to them.
+
+
+
+# Unreachable/dead code
+
+The following are the line numbers of code that will never be run.
+
+## DataUtilities
+
+- 133-136
+- 158-159
+- 194-197
+- 220-221
+- 290-293
+
+
+## Range
+
+- 105-108
+- 119-122
+- 133-136
