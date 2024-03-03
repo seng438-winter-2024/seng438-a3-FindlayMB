@@ -24,6 +24,9 @@ public class CalculateColumnTotalOverloadTests {
         values = mockingContext.mock(Values2D.class);
     }
 
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    
     /**
      * Set up mocking of a Values2D object for a given column
      *
@@ -56,8 +59,7 @@ public class CalculateColumnTotalOverloadTests {
     }
 
 
-    @Rule
-    public ExpectedException exceptionRule = ExpectedException.none();
+    
 
     /*
      * Following Tests are for the calculateColumnTotal method with the parameters
@@ -75,8 +77,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void invalidColumn_OutsideLeftBound() {
         setUpMocking(-5, true);
-        assertEquals(0.0,
-                DataUtilities.calculateColumnTotal(values, -5, new int[]{0,1,2,3,4}), delta);
+        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, -5, new int[]{0,1,2,3,4}), delta);
     }
 
 
@@ -91,8 +92,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void validColumn_LeftBoundary() {
         setUpMocking(-4);
-        assertEquals(5.0,
-                DataUtilities.calculateColumnTotal(values, -4, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -106,8 +106,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void validColumn_BetweenLeftBoundaryZero() {
         setUpMocking(-2);
-        assertEquals(5.0,
-                DataUtilities.calculateColumnTotal(values, -2, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, -2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -136,8 +135,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void validColumn_BetweenZeroRightBoundary() {
         setUpMocking(2);
-        assertEquals(5.0,
-                DataUtilities.calculateColumnTotal(values, 2, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -151,8 +149,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void validColumn_RightBoundary() {
         setUpMocking(4);
-        assertEquals(5.0,
-                DataUtilities.calculateColumnTotal(values, 4, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateColumnTotal(values, 4, new int[]{0,1,2,3,4}), delta);
     }
 
 
@@ -167,8 +164,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void invalidColumn_OutsideRightBound() {
         setUpMocking(5, true);
-        assertEquals(0.0,
-                DataUtilities.calculateColumnTotal(values, 5, new int[]{0,1,2,3,4}), delta);
+        assertEquals(0.0, DataUtilities.calculateColumnTotal(values, 5, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -188,8 +184,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void validRowsIncludesInvalidRows_ignoresInvalidRows(){
         setUpMocking(2);
-        assertEquals(5,
-                DataUtilities.calculateColumnTotal(values, 2, new int[]{0,1,2,3,4,5,6}), delta);
+        assertEquals(5, DataUtilities.calculateColumnTotal(values, 2, new int[]{0,1,2,3,4,5,6}), delta);
     }
 
     /**
@@ -199,7 +194,7 @@ public class CalculateColumnTotalOverloadTests {
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateColumnTotal(null, 0, new int[]{0,1});
+        DataUtilities.calculateColumnTotal(null, 0, new int[]{0,1});
     }
 
     /**
@@ -216,8 +211,7 @@ public class CalculateColumnTotalOverloadTests {
                 one(values).getValue(1, 0); will(returnValue(null));
             }
         });
-        assertEquals(7.5,
-                DataUtilities.calculateColumnTotal(values, 0, new int[]{0, 1}), delta);
+        assertEquals(7.5, DataUtilities.calculateColumnTotal(values, 0, new int[]{0, 1}), delta);
     }
 
 
@@ -235,7 +229,7 @@ public class CalculateColumnTotalOverloadTests {
                 one(values).getValue(1, 0); will(returnValue(2.5));
             }
         });
-        double result = DataUtilities.calculateColumnTotal(values, 0, null);
+        DataUtilities.calculateColumnTotal(values, 0, null);
     }
 
 

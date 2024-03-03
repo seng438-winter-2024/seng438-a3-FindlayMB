@@ -181,7 +181,7 @@ public class CalculateColumnTotalBaseTests {
     @Test
     public void nullData_ThrowIllegalArgumentException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateColumnTotal(null, 0);
+        DataUtilities.calculateColumnTotal(null, 0);
     }
 
     /**

@@ -86,8 +86,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void invalidRow_OutsideLeftBound() {
         setUpMocking(-5, true);
-        assertEquals(0.0,
-                DataUtilities.calculateRowTotal(values, -5), delta);
+        assertEquals(0.0, DataUtilities.calculateRowTotal(values, -5), delta);
     }
 
     /**
@@ -101,8 +100,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void validRow_LeftBoundary() {
         setUpMocking(-4);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -4), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, -4), delta);
     }
 
     /**
@@ -116,8 +114,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void validRow_BetweenLeftBoundaryZero() {
         setUpMocking(-2);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -2), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, -2), delta);
     }
 
     /**
@@ -130,8 +127,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void validRow_Zero() {
         setUpMocking(0);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 0), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 0), delta);
     }
 
     /**
@@ -145,8 +141,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void validRow_BetweenZeroRightBoundary() {
         setUpMocking(2);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 2), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 2), delta);
     }
 
     /**
@@ -160,8 +155,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void validRow_RightBoundary() {
         setUpMocking(4);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 4), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 4), delta);
     }
 
     /**
@@ -175,8 +169,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void invalidRow_OutsideRightBound() {
         setUpMocking(5, true);
-        assertEquals(0.0,
-                DataUtilities.calculateRowTotal(values, 5), delta);
+        assertEquals(0.0, DataUtilities.calculateRowTotal(values, 5), delta);
     }
 
 
@@ -191,8 +184,7 @@ public class CalculateRowTotalBaseTests {
                 one(values).getColumnCount(); will(returnValue(0));
             }
         });
-        assertEquals(0,
-                DataUtilities.calculateRowTotal(values, 0), delta);
+        assertEquals(0, DataUtilities.calculateRowTotal(values, 0), delta);
     }
 
     /**
@@ -202,7 +194,7 @@ public class CalculateRowTotalBaseTests {
     @Test
     public void nullData_ThrowIllegalArgumentException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateRowTotal(null, 1);
+        DataUtilities.calculateRowTotal(null, 1);
     }
 
     /**

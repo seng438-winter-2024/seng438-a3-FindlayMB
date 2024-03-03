@@ -19,7 +19,6 @@ public class GetCumulativePercentagesTests {
     private Mockery mockingContext;
     private KeyedValues values;
 
-    private final double delta = 0.000000001d;
 
     @Before
     public void setUp() {
@@ -168,7 +167,7 @@ public class GetCumulativePercentagesTests {
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(InvalidParameterException.class);
-        KeyedValues result = DataUtilities.getCumulativePercentages(null);
+        DataUtilities.getCumulativePercentages(null);
     }
 
     /**

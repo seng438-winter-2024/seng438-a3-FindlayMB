@@ -91,8 +91,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void invalidRow_OutsideLeftBound() {
         setUpMocking(-5, true);
-        assertEquals(0.0,
-                DataUtilities.calculateRowTotal(values, -5, new int[]{0,1,2,3,4}), delta);
+        assertEquals(0.0, DataUtilities.calculateRowTotal(values, -5, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -106,8 +105,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void validRow_LeftBoundary() {
         setUpMocking(-4);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -4, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, -4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -121,8 +119,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void validRow_BetweenLeftBoundaryZero() {
         setUpMocking(-2);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, -2, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, -2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -135,8 +132,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void validRow_Zero() {
         setUpMocking(0);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 0, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 0, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -150,8 +146,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void validRow_BetweenZeroRightBoundary() {
         setUpMocking(2);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -165,8 +160,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void validRow_RightBoundary() {
         setUpMocking(4);
-        assertEquals(5.0,
-                DataUtilities.calculateRowTotal(values, 4, new int[]{0,1,2,3,4}), delta);
+        assertEquals(5.0, DataUtilities.calculateRowTotal(values, 4, new int[]{0,1,2,3,4}), delta);
     }
 
     /**
@@ -196,15 +190,13 @@ public class CalculateRowTotalOverloadTests {
                 one(values).getColumnCount(); will(returnValue(0));
             }
         });
-        assertEquals(0,
-                DataUtilities.calculateRowTotal(values, 0, new int[]{}), delta);
+        assertEquals(0, DataUtilities.calculateRowTotal(values, 0, new int[]{}), delta);
     }
 
     @Test
     public void validColsIncludesInvalidColumns_ignoresInvalidColumns(){
         setUpMocking(2);
-        assertEquals(5,
-                DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4,5,6}), delta);
+        assertEquals(5, DataUtilities.calculateRowTotal(values, 2, new int[]{0,1,2,3,4,5,6}), delta);
     }
 
     /**
@@ -214,7 +206,7 @@ public class CalculateRowTotalOverloadTests {
     @Test
     public void nullData_ThrowInvalidParameterException() {
         exceptionRule.expect(IllegalArgumentException.class);
-        double result = DataUtilities.calculateRowTotal(null, 1, new int[]{0, 1});
+        DataUtilities.calculateRowTotal(null, 1, new int[]{0, 1});
     }
 
     /**
@@ -231,8 +223,7 @@ public class CalculateRowTotalOverloadTests {
                 one(values).getValue(0, 1); will(returnValue(null));
             }
         });
-        assertEquals(7.5,
-                DataUtilities.calculateRowTotal(values, 0, new int[]{0, 1}), delta);
+        assertEquals(7.5, DataUtilities.calculateRowTotal(values, 0, new int[]{0, 1}), delta);
     }
 
     /**
@@ -249,7 +240,7 @@ public class CalculateRowTotalOverloadTests {
                 one(values).getValue(1, 0); will(returnValue(2.5));
             }
         });
-        double result = DataUtilities.calculateRowTotal(values, 0, null);
+        DataUtilities.calculateRowTotal(values, 0, null);
     }
 
 }
