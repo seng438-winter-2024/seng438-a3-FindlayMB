@@ -165,7 +165,7 @@ public strictfp class Range implements Serializable {
         return (value >= this.lower && value <= this.upper);
     }
 
-    /**
+    /**3
      * Returns <code>true</code> if the range intersects with the specified
      * range, and <code>false</code> otherwise.
      *
