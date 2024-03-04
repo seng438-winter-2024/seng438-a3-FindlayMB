@@ -2,16 +2,18 @@ Notes taken by Findlay while increasing coverage
 
 # Initial coverage
 
-| SUT           | Class % | Method % | Line % | Branch % |
-| ------------- | ------- | -------- | ------ | -------- |
-| DataUtilities | 100%    | 55%      | 46%    | 31%      |
-| Range         | 100%    | 43%      | 38%    | 39%      |
+| SUT            | Method % | Line % | Branch % |
+| -------------  | -------- | ------ | -------- |
+| DataUtilities  | 50%      | 46%    | 31%      |
+| Range          | 44%      | 39%    | 39%      |
 
 For IntelliJ Idea Line coverage is the amount of lines that have been covered in by the tests, therefore line coverage is the same as statement coverage. 
 
 Which can be used to identify the decision/branch coverage, by looking at which chunks of code have been run.
 
 Branch coverage would be equivalent to condition coverage.
+
+Both Intellij and Eclipse give the same coverage results.
 
 # Improve coverage
 
