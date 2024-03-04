@@ -19,7 +19,7 @@ public class IntersectsTests {
     public void setUp() throws Exception { 
         // ranges to be used for testing
     	range1 = new Range(-1, 1);
-    	range2 = new Range(-10, -1);
+    	range2 = new Range(1, 10);
     }
 
     // ****** next ten tests cover the intersects() function ****** //
@@ -156,5 +156,19 @@ public class IntersectsTests {
         assertEquals("Range [2,3] does not intersect [-1,1]",
                 false, range1.intersects(test));
     }
+    
+    
+    /**
+     * This test tests intersects(Range) function
+     * Range [0, -1] is an invalid range
+     * test case: invalid range
+     * Expected outcome: false
+     */
+    @Test
+    public void  intersectsInvalidParameters() {
+    	assertEquals("Range [0, -1] is an invalid range",
+                false, range1.intersects(0, -1));
+    }
+    
 
 }
